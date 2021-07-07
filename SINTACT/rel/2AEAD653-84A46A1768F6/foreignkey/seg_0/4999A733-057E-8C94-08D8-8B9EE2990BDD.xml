@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4999A733-057E-8C94-08D8-8B9EE2990BDD" containerWithKeyObject="5C51A8DE-5269-5D47-2FD9-224D4CBABFBE" localFKIndex="D9EC70D1-F118-EA34-8176-2CFBE4528201" name="TELEFONOS_AFILIADOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:26:28 UTC</createdTime>
+<generatorID>D320A83A-8D2D-712C-57BC-40571A7A04D7</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<referredTableLongName>AFILIADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4FF44B55-571E-844C-9444-5370D4066639</referredTableID>
+<keyObject>7CFDA3D5-1921-9ED4-6C40-020CCD59C8E8</keyObject>
+<referredKeyID>7CFDA3D5-1921-9ED4-6C40-020CCD59C8E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

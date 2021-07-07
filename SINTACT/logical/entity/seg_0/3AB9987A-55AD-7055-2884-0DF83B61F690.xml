@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3AB9987A-55AD-7055-2884-0DF83B61F690" name="SEGUROS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>7A255460-6F7F-A8A0-CBCA-5F28DC353B6F</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="B5A18F0E-34EA-1AF7-2489-3D63C39C582A">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>8424C079-C01B-8A92-6077-6F596766794A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="69BCF255-D352-B58A-7CAC-284C510A6E86">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>D0BA949D-1A0A-9C17-8BBA-DDF8B2539937</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="594AE80D-54B6-7BD4-1B2C-DABDCD703E08" name="SEGUROS PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>B286DC9C-6313-04FC-E549-8ED4DCE7C04E</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5A18F0E-34EA-1AF7-2489-3D63C39C582A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

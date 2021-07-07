@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VEHICULOS AFILIADOS FK" directorySegmentName="seg_0" id="29B448F6-7AC3-F671-7CAD-B183EEEC33F7">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:44:17 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<sourcePk>12076C1D-E7E6-BBE0-391D-A402A37B5B82</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F6F7DAB-0C1E-808B-C762-F60921FDA793</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D7DE299-0839-8344-B407-28BD70BCE617</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F814A09E-E6E2-51A1-A723-AD34F19DCCD1" name="BENEFICIOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:06:38 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="634468F2-96B2-2673-13F9-84EC67199FD4">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:20:06 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F2F23723-4EA6-8124-8E49-A3E13FBE9B1F">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:21:20 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcetaje descuento" id="0E9028DE-CB4B-50EC-52ED-16207A5A2D14">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:24:29 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="BABD5979-BC4F-0AE9-F80F-1E2DA724739F">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:25:41 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORIAS BENEFICIOS codigo" id="C7480CEA-98C1-7C3E-0B2F-534AFC2F8CEF">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:28:32 UTC</createdTime>
+<generatorID>640C68CA-0680-5CEE-06F5-69340EA5176B</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<referedAttribute>1CEB1024-55FC-1D3B-6B14-6BEDD0737F74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="560646BB-2F06-93DD-DFE6-B069D874B4CA" name="BENEFICIOS PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:20:19 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>634468F2-96B2-2673-13F9-84EC67199FD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

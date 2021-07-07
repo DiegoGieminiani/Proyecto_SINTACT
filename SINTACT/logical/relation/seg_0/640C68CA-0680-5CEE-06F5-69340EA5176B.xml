@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BENEFICIOS CATEGORIAS BENEFICIOS FK" directorySegmentName="seg_0" id="640C68CA-0680-5CEE-06F5-69340EA5176B">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:28:32 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<sourcePk>DEF13523-5790-65B9-5EBB-1CA7438DF9B9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7633AADB-50F1-4994-445C-B78A8AC95DE2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F814A09E-E6E2-51A1-A723-AD34F19DCCD1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

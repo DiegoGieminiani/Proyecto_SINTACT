@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40375ADF-463A-1720-DC45-A94C490B4B31" containerWithKeyObject="623B976E-B77A-A630-5531-397F6A6E8DF9" localFKIndex="26225938-D103-EE73-217D-898A608A6DD1" name="CARGAS_TIPOS_PARENTESCOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>831BFA49-9986-19AD-08B9-F08F31CCD79B</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<referredTableLongName>TIPOS_PARENTESCOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>658DCD11-8AC7-BDF5-03D7-F4AA2A735FE2</referredTableID>
+<keyObject>2ACC17D6-7F98-0ED7-FC74-FE627F2A9701</keyObject>
+<referredKeyID>2ACC17D6-7F98-0ED7-FC74-FE627F2A9701</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

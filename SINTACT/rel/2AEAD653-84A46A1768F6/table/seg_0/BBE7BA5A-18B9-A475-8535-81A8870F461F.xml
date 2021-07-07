@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBE7BA5A-18B9-A475-8535-81A8870F461F" name="BENEFICIOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>F814A09E-E6E2-51A1-A723-AD34F19DCCD1</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="5372FB87-5AD2-7D25-9627-5BB7132F5F3E">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>634468F2-96B2-2673-13F9-84EC67199FD4</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="49BA4294-14D8-0BD1-4026-6273948FD2B5">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>F2F23723-4EA6-8124-8E49-A3E13FBE9B1F</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcetaje_descuento" id="B6D3C206-9E25-34CB-743B-440ADEF38033">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>0E9028DE-CB4B-50EC-52ED-16207A5A2D14</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="9EAF4CC4-9893-AA85-988C-C3AE24AD4F6B">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>BABD5979-BC4F-0AE9-F80F-1E2DA724739F</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIAS_BENEFICIOS_codigo" id="FE67C010-E701-EB24-5806-B26DA031359C">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>C7480CEA-98C1-7C3E-0B2F-534AFC2F8CEF</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F04679F6-61BA-35BF-252B-EFC54CB25468" referredColumn="EC8AAC91-57F0-D971-C10B-F8E2C1F191C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D8A375A-8B34-CBF6-88AF-C5489ED8B68F" name="BENEFICIOS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>560646BB-2F06-93DD-DFE6-B069D874B4CA</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5372FB87-5AD2-7D25-9627-5BB7132F5F3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50722F9C-6420-A81B-2322-50890FCB7976" name="BENEFICIOS_CATEGORIAS_BENEFICIOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>640C68CA-0680-5CEE-06F5-69340EA5176B</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE67C010-E701-EB24-5806-B26DA031359C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

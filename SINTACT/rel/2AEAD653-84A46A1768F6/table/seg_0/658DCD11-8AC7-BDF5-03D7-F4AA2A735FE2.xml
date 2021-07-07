@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="658DCD11-8AC7-BDF5-03D7-F4AA2A735FE2" name="TIPOS_PARENTESCOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>DF1E871D-42A4-1999-5A62-6D3DCB88B0B1</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="DA52B35A-BAF7-11B9-AD1D-7551C46965DD">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>DE6E52B7-948C-40A6-85FC-30C47B575B0A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="955BAA0C-FF81-CDD3-31B7-83B6C9F8B04B">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>23689736-C746-AACA-AF35-F7F23F1407AE</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detalle" id="288F788D-14C4-180C-08E9-CD93BD15A29A">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>73CBB37A-1FDF-FB59-7100-6C10A40B20CF</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ACC17D6-7F98-0ED7-FC74-FE627F2A9701" name="TIPOS_PARENTESCOS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>F7B10F7A-9A83-1798-D5EC-FD6E055E5A4F</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA52B35A-BAF7-11B9-AD1D-7551C46965DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAGOS_AFILIADOS_FK" directorySegmentName="seg_0" id="52B8D862-D11A-A22D-3BB0-A2ED9DABA512">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>5D2AB282-99CE-D8DC-02F9-527D84FE8DB6</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<sourcePk>12076C1D-E7E6-BBE0-391D-A402A37B5B82</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F6F7DAB-0C1E-808B-C762-F60921FDA793</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43036685-6FE4-3980-9813-36CC509AFF86</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

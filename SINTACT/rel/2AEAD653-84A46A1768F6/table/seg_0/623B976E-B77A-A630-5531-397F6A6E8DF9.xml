@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="623B976E-B77A-A630-5531-397F6A6E8DF9" name="CARGAS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>E901E96E-2E49-1A11-5444-28C3A2136063</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="1F4976F5-8D29-D095-8621-16496866DA00">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>D98311D7-9D2A-19B7-5D7A-DCC4D45B3EFE</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run" id="E4D3F86B-775F-794E-18B3-F1BB620D4FD9">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>1073B60E-307E-EE9D-80C7-FCEF01219E1F</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BE0D7BFC-2E1B-A42D-2C73-48F0F7F400FA">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>27AB6493-158B-0C63-1172-D3D7E2B79119</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="888A9A5E-08B0-E171-B197-4D4B1C12A0B9">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>97C4AAEE-CE16-D0F9-377B-B4B035564933</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_paterno" id="20525664-D522-888A-34F4-546C920D175D">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>7C7824D6-04D9-F348-7301-F65D4F68B298</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_materno" id="652F117C-8699-A0B7-C887-9F26A6408F92">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>FF23288A-EE52-A524-1551-F103C043655C</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="F7A71EBD-4113-E17F-9067-DC009E907971">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>910C6594-A421-C5E4-8AB4-BB70AEE31A10</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFILIADOS_codigo" id="42BC1D8F-3EB4-7622-650A-6DD6298BEAC3">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>1B3A9410-5346-9F2B-346B-88B0015D3627</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B633895-828B-0919-F31B-A7799E0FDA64" referredColumn="2683A3B7-1F3E-49D7-DA96-05685A279C07"/>
+</associations>
+</Column>
+<Column name="TIPOS_PARENTESCOS_codigo" id="00CC187E-2C23-6528-5934-60E37B15A638">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>0B84DE36-C8E9-2481-7B31-A5B6E6937D14</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40375ADF-463A-1720-DC45-A94C490B4B31" referredColumn="DA52B35A-BAF7-11B9-AD1D-7551C46965DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BC0BFC6-728C-82A5-1892-B077C32377B9" name="CARGAS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:40:39 UTC</createdTime>
+<generatorID>6B994D21-D7D6-7EB3-5B72-00D8F5818226</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F4976F5-8D29-D095-8621-16496866DA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="096A514B-020B-C005-3303-5807A9362807" name="CARGAS_AFILIADOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>836D4A05-AA0F-E651-6F91-82AAFEC859FC</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BC1D8F-3EB4-7622-650A-6DD6298BEAC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26225938-D103-EE73-217D-898A608A6DD1" name="CARGAS_TIPOS_PARENTESCOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>831BFA49-9986-19AD-08B9-F08F31CCD79B</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00CC187E-2C23-6528-5934-60E37B15A638"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

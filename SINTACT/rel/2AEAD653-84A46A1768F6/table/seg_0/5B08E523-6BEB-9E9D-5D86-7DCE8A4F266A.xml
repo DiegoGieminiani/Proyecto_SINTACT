@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B08E523-6BEB-9E9D-5D86-7DCE8A4F266A" name="PAGOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:07:39 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="2DE4A410-95BA-89AC-D49B-C4BC85C4FFB5">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:07:57 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFILIADOS_codigo" id="08950B1C-ACB9-E57A-6B9F-71D6AC145875">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:14:27 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D2AB282-99CE-D8DC-02F9-527D84FE8DB6" referredColumn="2683A3B7-1F3E-49D7-DA96-05685A279C07"/>
+</associations>
+</Column>
+<Column name="tipo_pago" id="0FB85CD0-A356-13EA-0513-19D795ACEF77">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:08:37 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run_pago" id="FD6B4254-AD12-9B47-7E13-9679DC602CEF">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:18:21 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_banco" id="C6D4D9FF-44F2-E860-963D-D5AE8874ECF2">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:09:26 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_cheque" id="901BECE3-627E-DA53-726E-4CD0455B4F53">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:10:04 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="AEE51C5A-40B8-370E-6B60-A530C7993D22">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:12:24 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razon" id="EA8C4236-950E-53A4-9618-D0EAAA07B6E8">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:13:50 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35FFE419-680C-41CB-043E-32FF8D08037A" name="PAGOS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:07:57 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DE4A410-95BA-89AC-D49B-C4BC85C4FFB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC493427-5285-11AB-A6DB-51875A0F88C8" name="PAGOS_AFILIADOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:14:27 UTC</createdTime>
+<generatorID>12076C1D-E7E6-BBE0-391D-A402A37B5B82</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08950B1C-ACB9-E57A-6B9F-71D6AC145875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

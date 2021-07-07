@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43036685-6FE4-3980-9813-36CC509AFF86" name="PAGOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>5B08E523-6BEB-9E9D-5D86-7DCE8A4F266A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="450E2D79-05CC-8E29-C358-32644E209EE7">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>2DE4A410-95BA-89AC-D49B-C4BC85C4FFB5</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFILIADOS codigo" id="38B33CF4-E895-F2F1-47D3-11D8775F1049">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>52B8D862-D11A-A22D-3BB0-A2ED9DABA512</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<referedAttribute>C9C354AC-5069-1E2B-9F6B-46522F45749E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo pago" id="7055C596-94FE-5A09-83B2-F00DAF0EAF07">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>0FB85CD0-A356-13EA-0513-19D795ACEF77</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run pago" id="708FCD29-07D4-5494-0970-99D4BC3EB022">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>FD6B4254-AD12-9B47-7E13-9679DC602CEF</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo banco" id="BB806815-E0F1-F365-AE75-4BE210A0D050">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>C6D4D9FF-44F2-E860-963D-D5AE8874ECF2</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero cheque" id="273607A4-915E-27AD-5821-A07EC20A5829">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>901BECE3-627E-DA53-726E-4CD0455B4F53</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="1385CF1A-C9EF-11EB-1F75-D46334DFFACC">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>AEE51C5A-40B8-370E-6B60-A530C7993D22</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razon" id="DEFA2F72-B216-CF35-A11F-0435790A5236">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>EA8C4236-950E-53A4-9618-D0EAAA07B6E8</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C56A89B6-7042-E23A-48A1-98CE40E00F47" name="PAGOS PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>35FFE419-680C-41CB-043E-32FF8D08037A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>450E2D79-05CC-8E29-C358-32644E209EE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

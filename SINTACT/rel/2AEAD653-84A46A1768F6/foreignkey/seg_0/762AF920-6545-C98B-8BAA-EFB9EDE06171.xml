@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="762AF920-6545-C98B-8BAA-EFB9EDE06171" containerWithKeyObject="FF39F9A5-6177-090E-E94E-C2CF615609D4" localFKIndex="D200DBC1-5FDE-CB33-7307-5CCCF43EF119" name="COMUNAS_PROVINCIAS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:25:18 UTC</createdTime>
+<generatorID>5769BE9B-8FE7-ACCE-37AF-7C6187B2942A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<referredTableLongName>PROVINCIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8093F3EB-1605-0CAB-06B3-EB4F6858F352</referredTableID>
+<keyObject>B4932D34-B095-22B1-18D7-01564FCBCBBB</keyObject>
+<referredKeyID>B4932D34-B095-22B1-18D7-01564FCBCBBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

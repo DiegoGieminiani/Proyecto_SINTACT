@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C51A8DE-5269-5D47-2FD9-224D4CBABFBE" name="TELEFONOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:26:28 UTC</createdTime>
+<generatorID>95A1236D-EE0D-F761-B2FF-08F570CC300D</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AFILIADOS_codigo" id="74776DA4-436D-DDF0-2291-AFA4EFD3B851">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:26:28 UTC</createdTime>
+<generatorID>27D99852-EED3-9E4E-4635-FF36C0E2116D</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4999A733-057E-8C94-08D8-8B9EE2990BDD" referredColumn="2683A3B7-1F3E-49D7-DA96-05685A279C07"/>
+</associations>
+</Column>
+<Column name="telefono" id="062A5A88-F287-738F-1B55-FB36DBB0FD8F">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:26:28 UTC</createdTime>
+<generatorID>92759DCA-FF74-C8B5-585E-0820FCBB149E</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="B66A506F-374C-A43C-4570-F2533A328B3C">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:26:28 UTC</createdTime>
+<generatorID>6A8AD2EF-A3C7-FB7A-FBEE-F7C10C4C8E79</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A05896D-C7E8-AA25-47B4-087D3C372D5B" name="TELEFONOS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:26:28 UTC</createdTime>
+<generatorID>3B64A3C2-094B-26DE-A361-0A784CF24A0B</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="062A5A88-F287-738F-1B55-FB36DBB0FD8F"/>
+<colUsage columnID="74776DA4-436D-DDF0-2291-AFA4EFD3B851"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9EC70D1-F118-EA34-8176-2CFBE4528201" name="TELEFONOS_AFILIADOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:26:28 UTC</createdTime>
+<generatorID>D320A83A-8D2D-712C-57BC-40571A7A04D7</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74776DA4-436D-DDF0-2291-AFA4EFD3B851"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

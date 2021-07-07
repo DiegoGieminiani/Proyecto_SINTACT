@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8FC5F26-29D4-80E5-11D8-4C71729A8786" name="COMUNAS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="078CE935-A040-D07F-5D72-BCFC71385D7B">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<importedID>E780E3F7-5880-266C-769A-C2013F4A9487</importedID>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="59503B8F-092F-A26D-83FA-33BC3C50E69E">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<importedID>B7D88CA3-B8E9-5614-3BEF-919E3ACEF3B0</importedID>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROVINCIAS codigo" id="5FDB19EB-D067-4EDF-9B9F-CBC475684E48">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:26:40 UTC</createdTime>
+<generatorID>60D8AACC-5C6B-A755-64C5-BDA9259182C9</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<referedAttribute>F3E5F3CE-F924-1A57-D725-82F5910A65F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C81D7D4-1747-4AAC-1FFE-A8AA6B987F41" name="COMUNAS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>078CE935-A040-D07F-5D72-BCFC71385D7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

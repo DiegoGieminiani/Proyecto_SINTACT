@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AFILIADOS_BENEFICIOS" directorySegmentName="seg_0" id="D045C608-B408-CB0B-F57F-D7567BD046EC">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:29:24 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8F6F7DAB-0C1E-808B-C762-F60921FDA793</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F814A09E-E6E2-51A1-A723-AD34F19DCCD1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="usos" id="F206C939-D22F-9ADE-4EC4-88BF36E996AE">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:29:52 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="VEHICULOS patente" id="F9A50601-A4D0-6D8E-C6A1-E61B3B9C5752">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 04:15:27 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

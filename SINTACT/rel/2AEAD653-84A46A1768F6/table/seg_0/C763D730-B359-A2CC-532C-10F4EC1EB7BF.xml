@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C763D730-B359-A2CC-532C-10F4EC1EB7BF" name="VEHICULOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>9D7DE299-0839-8344-B407-28BD70BCE617</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patente" id="AB3664DF-7C31-FF81-1724-92B80DE4A85F">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>E29AE1AF-BF28-E461-8C34-72F38736337A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_chasis" id="95CB350F-2CC7-5B79-7DA8-F3D979A7799F">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>1E5C9AC5-1821-09C2-578E-311C3246D00B</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_motor" id="75D27458-80D8-FBA7-5042-BDC5404964EB">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>19738EE6-08CD-3C9E-11C0-9B0A7FF305A5</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="3436E109-F62C-2781-E196-E64B80FCD735">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>2DEAD7C9-F9A4-3417-FE7F-537F28D57F8A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="8133D2C2-3F96-D4BD-BF85-50375AF26969">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>A8F71C80-8D26-DF6E-B9BB-4D641AD8DE9D</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="5AE9B557-15D0-3CF3-B8CC-949C849D3004">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>D0F76612-0F94-127D-92D0-F76029B0A000</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="5804ED9B-6252-3B56-3F49-FC474388CC62">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>20C50046-ECFC-7915-E278-B36492DBDFBA</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFILIADOS_codigo" id="136493A3-00C6-11F1-2A1E-F18B92E56639">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>848EFB4F-E279-6CA9-BC70-AB6393FB4E52</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE5D6EFE-0276-8E69-08FF-C7519AABDCE3" referredColumn="2683A3B7-1F3E-49D7-DA96-05685A279C07"/>
+</associations>
+</Column>
+<Column name="beneficio_seguro" id="C2533A9A-29F3-86D2-9FE0-C6737F8E6976">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 01:48:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUROS_codigo" id="418DC53C-837D-0350-AD71-91F277973477">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 01:54:13 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE11F8D5-F148-6E01-23E9-BC405E2046BD" referredColumn="8424C079-C01B-8A92-6077-6F596766794A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC01CBFF-0E01-CB91-697D-8BA72FDF4DFF" name="VEHICULOS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>1A0BAFB0-8FFF-B116-81C8-AF7D6EAAAEF0</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB3664DF-7C31-FF81-1724-92B80DE4A85F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59F23403-FC4F-54A3-3894-7C9C47D3C032" name="VEHICULOS_numero_chasis_UN">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>2CE28BCF-5782-F8BC-0480-BDE93CF68671</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95CB350F-2CC7-5B79-7DA8-F3D979A7799F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B1808D6-A634-D988-B57A-391871346A84" name="VEHICULOS_numero_motor_UN">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>7FC46C92-1973-E1DD-F7AD-F1861A404CC7</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D27458-80D8-FBA7-5042-BDC5404964EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98B5B34E-F831-5D19-05C1-78D33157D432" name="VEHICULOS_AFILIADOS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:50:42 UTC</createdTime>
+<generatorID>29B448F6-7AC3-F671-7CAD-B183EEEC33F7</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="136493A3-00C6-11F1-2A1E-F18B92E56639"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13890880-D7E6-DE5B-608A-CBEBB67A4E94" name="VEHICULOS_SEGUROS_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 01:54:13 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="418DC53C-837D-0350-AD71-91F277973477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

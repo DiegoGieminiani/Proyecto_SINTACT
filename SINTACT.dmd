@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SINTACT" id="B1506852-B6AA-00C4-ADF3-89FAFCD7139C" version="3.5">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 01:58:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B1506852-B6AA-00C4-ADF3-89FAFCD7139C</designId>
+</OSDM_Design>

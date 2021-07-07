@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8093F3EB-1605-0CAB-06B3-EB4F6858F352" name="PROVINCIAS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:11:56 UTC</createdTime>
+<generatorID>B13DDBF7-365D-4642-422B-288B7B58481D</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<ordsAlias>ciudades</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="CB6B9BC0-494D-4913-0E38-9EFBEF7F33CD">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:11:56 UTC</createdTime>
+<generatorID>F3E5F3CE-F924-1A57-D725-82F5910A65F2</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="ADD01118-F2C7-E44C-3B5C-EB8F43894475">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:11:56 UTC</createdTime>
+<generatorID>0524B563-4F46-8AD8-C2C3-9894C8E4067B</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIONES_codigo" id="F1C40249-EA98-D27C-4329-62C80A565726">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:24:30 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00FE4CE6-FEE5-5E0C-A167-152B51271C32" referredColumn="ECB0600C-AC90-1AB4-67FC-EEFDF1367408"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4932D34-B095-22B1-18D7-01564FCBCBBB" name="PROVINCIAS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:11:56 UTC</createdTime>
+<generatorID>5769BE9B-8FE7-ACCE-37AF-7C6187B2942A</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB6B9BC0-494D-4913-0E38-9EFBEF7F33CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFD92ED8-10A4-2C91-BAF6-880797E7E071" name="PROVINCIAS_REGIONES_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-07 00:24:30 UTC</createdTime>
+<generatorID>5DDD1916-D298-55E2-F59C-5A757C973E42</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C40249-EA98-D27C-4329-62C80A565726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

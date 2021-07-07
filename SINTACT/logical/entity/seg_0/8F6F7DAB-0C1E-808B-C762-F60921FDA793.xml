@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F6F7DAB-0C1E-808B-C762-F60921FDA793" name="AFILIADOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:46:21 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="C9C354AC-5069-1E2B-9F6B-46522F45749E">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:46:40 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="A3168719-5087-83FC-9F66-73258BDF65A8">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:46:55 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="5D21139C-8080-92D2-D15E-E9D14A529BE8">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:47:06 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo nombre" id="6C7E83C0-9AB3-3B08-1769-DAD60C767074">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:47:22 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido paterno" id="5B24D5F2-4075-C35E-2067-E27EDC513F16">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:47:51 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido materno" id="1F1F6D24-A70B-A827-912B-6EBBEF107B32">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:48:48 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nacimiento" id="C5E5BB77-691A-23B9-23F7-599A75B4433B">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:50:49 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="D307C9D3-C35B-ACE6-CDFB-25C668A4FE57">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:51:08 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="85709524-ACB1-D5FD-0578-CB3D81F061BF">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:51:19 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discapacidad" id="6835F7CA-7BEA-633C-1F1B-3EFC9E1931B0">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:51:37 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo discapacidad" id="6A368362-C6F6-C159-ABB5-F07EAA6B42E1">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:51:50 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pretension sueldo" id="18F41B4A-734F-1C05-8507-B8DE36877581">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:52:32 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curriculum vitae" id="0055D61D-4E3B-F054-4459-9F3C22E9F910">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:53:08 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMUNAS codigo" id="66B7FC58-48BB-B63E-C77A-A8A863439DC0">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:53:37 UTC</createdTime>
+<generatorID>F38075DC-401E-58D4-7B4A-BF5ED4EC6701</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<referedAttribute>078CE935-A040-D07F-5D72-BCFC71385D7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="habilitado" id="55C5E4AF-6AE7-F298-2247-7428AE757EF9">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>C5CAC3F4-18BC-D3B7-9B69-A7DEB44DD7DA</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12076C1D-E7E6-BBE0-391D-A402A37B5B82" name="AFILIADOS PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:46:53 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9C354AC-5069-1E2B-9F6B-46522F45749E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4FAE586D-500B-506B-7B62-81185D65FFB5" name="AFILIADOS_run_UN">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:50:08 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<newElementsIDs>A3168719-5087-83FC-9F66-73258BDF65A8</newElementsIDs>
+<usedAttributes>
+<attributeRef>A3168719-5087-83FC-9F66-73258BDF65A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

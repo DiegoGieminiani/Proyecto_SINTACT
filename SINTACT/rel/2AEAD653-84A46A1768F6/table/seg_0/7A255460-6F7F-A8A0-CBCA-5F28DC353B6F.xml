@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A255460-6F7F-A8A0-CBCA-5F28DC353B6F" name="SEGUROS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 01:52:28 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="8424C079-C01B-8A92-6077-6F596766794A">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 01:53:04 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D0BA949D-1A0A-9C17-8BBA-DDF8B2539937">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 01:53:25 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B286DC9C-6313-04FC-E549-8ED4DCE7C04E" name="SEGUROS_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 01:53:04 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8424C079-C01B-8A92-6077-6F596766794A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

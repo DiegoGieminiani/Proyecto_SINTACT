@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D7DE299-0839-8344-B407-28BD70BCE617" name="VEHICULOS">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:31:06 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patente" id="E29AE1AF-BF28-E461-8C34-72F38736337A">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:36:04 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero chasis" id="1E5C9AC5-1821-09C2-578E-311C3246D00B">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:38:14 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero motor" id="19738EE6-08CD-3C9E-11C0-9B0A7FF305A5">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:39:19 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="2DEAD7C9-F9A4-3417-FE7F-537F28D57F8A">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:35:24 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="A8F71C80-8D26-DF6E-B9BB-4D641AD8DE9D">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:37:06 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="D0F76612-0F94-127D-92D0-F76029B0A000">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:37:28 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="20C50046-ECFC-7915-E278-B36492DBDFBA">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:37:58 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFILIADOS codigo" id="848EFB4F-E279-6CA9-BC70-AB6393FB4E52">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:44:17 UTC</createdTime>
+<generatorID>29B448F6-7AC3-F671-7CAD-B183EEEC33F7</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<referedAttribute>C9C354AC-5069-1E2B-9F6B-46522F45749E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="beneficio seguro" id="4C6632E8-19B7-F5F8-969A-D2A8E398A557">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>C2533A9A-29F3-86D2-9FE0-C6737F8E6976</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEGUROS codigo" id="7D822919-0BAA-D8C8-4830-F373BB7F97E8">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-05 02:23:12 UTC</createdTime>
+<generatorID>48ECD9DE-8369-FB0D-91AF-A2AC3E01C00F</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<referedAttribute>B5A18F0E-34EA-1AF7-2489-3D63C39C582A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A0BAFB0-8FFF-B116-81C8-AF7D6EAAAEF0" name="VEHICULOS PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:35:50 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E29AE1AF-BF28-E461-8C34-72F38736337A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2CE28BCF-5782-F8BC-0480-BDE93CF68671" name="VEHICULOS_numero_chasis_UN">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:40:29 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<newElementsIDs>1E5C9AC5-1821-09C2-578E-311C3246D00B</newElementsIDs>
+<usedAttributes>
+<attributeRef>1E5C9AC5-1821-09C2-578E-311C3246D00B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7FC46C92-1973-E1DD-F7AD-F1861A404CC7" name="VEHICULOS_numero_motor_UN">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 03:41:26 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<newElementsIDs>19738EE6-08CD-3C9E-11C0-9B0A7FF305A5</newElementsIDs>
+<usedAttributes>
+<attributeRef>19738EE6-08CD-3C9E-11C0-9B0A7FF305A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

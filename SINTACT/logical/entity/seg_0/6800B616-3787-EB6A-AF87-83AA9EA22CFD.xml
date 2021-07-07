@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6800B616-3787-EB6A-AF87-83AA9EA22CFD" name="REGIONES">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="84BC8C04-73F6-3707-3735-230E1181C5C6">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<importedID>681E094F-ED24-8871-4088-8BCB000E48C5</importedID>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="B8C8D04B-4C92-1604-5C1F-3344C713F291">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<importedID>332822FA-FA8C-7564-A06A-0C579298FBAA</importedID>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DDD1916-D298-55E2-F59C-5A757C973E42" name="REGIONES PK">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:06:56 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84BC8C04-73F6-3707-3735-230E1181C5C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
