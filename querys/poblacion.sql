@@ -61,3 +61,27 @@ insert into vehiculos values ('CV-VA-10', 'CSKNHJLLCDW22579', 'UUWMMXIJNP77755',
 insert into vehiculos values ('CX-CC-88', 'ASDFDFDC5574022C', 'TTWOUHYYXQ88258', 'ford', 'raptor', 'negro', 'pick up',3, 5.5, 3);
 insert into vehiculos values ('YV-DD-57', 'TTEOLMNBOO555574', 'IHNCPOJS887S888', 'toyota', 'corolla', 'negro', 'coupe', 4, 35.5, 4);
 insert into vehiculos values ('CA-FF-99', 'LKPJNBHGFDQ55217', 'MAUTQM777FDHG88', 'mg', 'wtver', 'azul', 'x', 5, 40.0, 5);
+
+insert into categorias_benefinicos values(1,'deporte')
+insert into categorias_benefinicos values(2,'educacion')
+insert into categorias_benefinicos values(3,'salud')
+insert into categorias_benefinicos values(4,'transporte')
+
+insert into regiones values(1,'Región de Tarapacá');
+insert into regiones values(12,'Region de Magallanes');
+insert into regiones values(13,'Region Metropolitana');
+
+insert into provincias values(1,'Chacabuco',13);
+insert into provincias values(2,'Cordillera',13);
+insert into provincias values(3,'Maipo',13);
+insert into provincias values(4,'Melipilla',13);
+insert into provincias values(5,'Santiago',13);
+insert into provincias values(6,'Talagante',13);
+
+insert into comunas values (13,'La Reina',5);
+insert into comunas values (14,'Las Condes',5);
+insert into comunas values (8,'Independencia',5);
+insert into comunas values (20, 'Ñuñoa',5);
+
+
+
