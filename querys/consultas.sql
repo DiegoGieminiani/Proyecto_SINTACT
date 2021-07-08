@@ -22,6 +22,11 @@ select patente, numero_chasis, numero_motor from vehiculos where color = 'rojo';
 
 
 
+--Devuelve el numero de afiliados
+select count(*) from afiliados;
+
+--Devuelve todos los vehiculos registrados en el sistema
+select * from vehiculos;
 
 --Devuelve nombre y apellido de las personas que hayan utilizado el beneficio de transporte
 select nombre,apellido_paterno from afiliados where codigo in 
