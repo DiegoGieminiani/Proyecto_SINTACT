@@ -50,5 +50,14 @@ insert into pagos values(4, 1, 'cheque', '26478742-4', 'santander', 258256693, T
 insert into pagos values(5, 1, 'cheque', '26478742-4', 'itau', 7896544582, TO_DATE('2021/02/09', 'yyyy/mm/dd'), 'mensualidad');
 insert into pagos values(6, 3, 'efectivo', '26601453-8', null, null, TO_DATE('2021/07/29', 'yyyy/mm/dd'), 'pago inicial');
 
-categorias_beneficios, comunas, regiones, seguros, vehiculos
+insert into seguros values (1, 'hdi');
+insert into seguros values (2, 'falabella');
+insert into seguros values (3, 'santander');
+insert into seguros values (4, 'bci');
+insert into seguros values (5, 'consorcio');
 
+insert into vehiculos values ('BB-BB-10', 'LJCPLBCX11000217', 'ASDFDJYS75548SD', 'nissan', 'cx-1', 'rojo', 'sub', 1, 21.0, 1);
+insert into vehiculos values ('CV-VA-10', 'CSKNHJLLCDW22579', 'UUWMMXIJNP77755', 'mini', 'muy mini', 'amarilo', 'coupe', 2, 15.0,2);
+insert into vehiculos values ('CX-CC-88', 'ASDFDFDC5574022C', 'TTWOUHYYXQ88258', 'ford', 'raptor', 'negro', 'pick up',3, 5.5, 3);
+insert into vehiculos values ('YV-DD-57', 'TTEOLMNBOO555574', 'IHNCPOJS887S888', 'toyota', 'corolla', 'negro', 'coupe', 4, 35.5, 4);
+insert into vehiculos values ('CA-FF-99', 'LKPJNBHGFDQ55217', 'MAUTQM777FDHG88', 'mg', 'wtver', 'azul', 'x', 5, 40.0, 5);

@@ -17,12 +17,13 @@ select nombre,apellido_paterno from afiliados where codigo in
 select telefono,tipo from telefonos where afiliados_codigo 
 in (select codigo from afiliados where nombre = 'Alejandro');
 
---
-select patente, numero_chasis, numero_motor from vehiculos where color = 'rojo'
+--Trae informacion de los vehiculos de colo rojo
+select patente, numero_chasis, numero_motor from vehiculos where color = 'rojo';
 
 
 
 
+--Devuelve nombre y apellido de las personas que hayan utilizado el beneficio de transporte
 select nombre,apellido_paterno from afiliados where codigo in 
 (select afiliados_codigo from afiliados_beneficios where beneficios_codigo in 
 (select codigo from beneficios where nombre like 'Transporte%')); 
