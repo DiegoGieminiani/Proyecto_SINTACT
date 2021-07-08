@@ -52,3 +52,85 @@ insert into pagos values(6, 3, 'efectivo', '26601453-8', null, null, TO_DATE('20
 
 categorias_beneficios, comunas, regiones, seguros, vehiculos
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+insert into regiones values(1,'Región de Tarapacá');
+insert into regiones values(12,'Region de Magallanes');
+insert into regiones values(13,'Region Metropolitana');
+
+insert into provincias values(1,'Chacabuco',13);
+insert into provincias values(2,'Cordillera',13);
+insert into provincias values(3,'Maipo',13);
+insert into provincias values(4,'Melipilla',13);
+insert into provincias values(5,'Santiago',13);
+insert into provincias values(6,'Talagante',13);
+
+insert into comunas values (13,'La Reina',5);
+insert into comunas values (14,'Las Condes',5);
+insert into comunas values (8,'Independencia',5);
+insert into comunas values (20, 'Ñuñoa',5);
+
+
+
