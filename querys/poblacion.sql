@@ -57,7 +57,7 @@ insert into categorias_benefinicos values(1,'deporte')
 insert into categorias_benefinicos values(2,'educacion')
 insert into categorias_benefinicos values(3,'salud')
 insert into categorias_benefinicos values(4,'transporte')
-insert into categorias_benefinicos values(5,'educacion')
+
 
 
 
