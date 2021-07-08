@@ -53,6 +53,11 @@ insert into pagos values(6, 3, 'efectivo', '26601453-8', null, null, TO_DATE('20
 categorias_beneficios, comunas, regiones, seguros, vehiculos
 
 
+insert into categorias_benefinicos values(1,'deporte')
+insert into categorias_benefinicos values(2,'educacion')
+insert into categorias_benefinicos values(3,'salud')
+insert into categorias_benefinicos values(4,'transporte')
+insert into categorias_benefinicos values(5,'educacion')
 
 
 
