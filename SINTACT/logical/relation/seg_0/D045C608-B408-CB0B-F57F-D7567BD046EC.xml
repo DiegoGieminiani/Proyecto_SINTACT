@@ -28,18 +28,5 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
-<attribute name="VEHICULOS patente" id="F9A50601-A4D0-6D8E-C6A1-E61B3B9C5752">
-<createdBy>Diego</createdBy>
-<createdTime>2021-06-29 04:15:27 UTC</createdTime>
-<ownerDesignName>SINTACT</ownerDesignName>
-<engineerTo>
-<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</attribute>
 </attributes>
 </Relation>

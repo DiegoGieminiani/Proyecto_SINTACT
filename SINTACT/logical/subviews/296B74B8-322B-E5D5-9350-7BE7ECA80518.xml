@@ -69,8 +69,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="558" y="597"/>
-<point x="558" y="653"/>
+<point x="573" y="597"/>
+<point x="573" y="653"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="48ECD9DE-8369-FB0D-91AF-A2AC3E01C00F" otype="Relation" vid_source="260874DC-0767-DF28-F51E-57DEAFB2E14E" vid_target="8AE59A57-BC5B-ADD8-AC1F-90221067656E">
@@ -87,8 +87,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="689" y="331"/>
-<point x="842" y="331"/>
+<point x="689" y="346"/>
+<point x="842" y="346"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="60D8AACC-5C6B-A755-64C5-BDA9259182C9" otype="Relation" vid_source="79B4548D-1C7B-9DA3-B3A7-D8CC22BCD09A" vid_target="F4A635D1-5D13-7B89-E0B3-FB6F3D5B459F">
@@ -123,8 +123,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="573" y="288"/>
-<point x="573" y="232"/>
+<point x="558" y="288"/>
+<point x="558" y="232"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C7D103F3-6365-DC0A-9F89-7CC79A0B67FC" otype="Relation" vid_source="6D72F372-4796-7C06-1A85-D1803D853EF3" vid_target="79B4548D-1C7B-9DA3-B3A7-D8CC22BCD09A">
@@ -150,8 +150,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="428" y="541"/>
-<point x="296" y="541"/>
+<point x="428" y="556"/>
+<point x="296" y="556"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F38075DC-401E-58D4-7B4A-BF5ED4EC6701" otype="Relation" vid_source="F4A635D1-5D13-7B89-E0B3-FB6F3D5B459F" vid_target="FC0AC73A-466B-68E2-2A3A-5042E78BF991">
@@ -159,8 +159,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="293" y="354"/>
-<point x="428" y="354"/>
+<point x="293" y="369"/>
+<point x="428" y="369"/>
 </points>
 </Connector>
 </connectors>

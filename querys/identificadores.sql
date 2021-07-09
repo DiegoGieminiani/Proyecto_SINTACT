@@ -2,6 +2,8 @@ ALTER TABLE afiliados ADD CONSTRAINT afiliados_pk PRIMARY KEY ( codigo );
 
 ALTER TABLE afiliados ADD CONSTRAINT afiliados_run_un UNIQUE ( run );
 
+ALTER TABLE afiliados ADD CONSTRAINT afiliados_pasaporte_un UNIQUE ( pasaporte );
+
 ALTER TABLE afiliados_beneficios ADD CONSTRAINT afiliados_beneficios_pk PRIMARY KEY ( afiliados_codigo,
                                                                                       beneficios_codigo );
 ALTER TABLE beneficios ADD CONSTRAINT beneficios_pk PRIMARY KEY ( codigo );

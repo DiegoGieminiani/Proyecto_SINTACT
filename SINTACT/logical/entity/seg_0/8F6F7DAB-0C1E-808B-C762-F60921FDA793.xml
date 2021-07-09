@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="run" id="A3168719-5087-83FC-9F66-73258BDF65A8">
+<Attribute name="nacionalidad" id="8C178388-3705-9E46-D67B-0981BF3F0E07">
 <createdBy>Diego</createdBy>
-<createdTime>2021-06-29 02:46:55 UTC</createdTime>
+<createdTime>2021-07-09 23:33:35 UTC</createdTime>
 <ownerDesignName>SINTACT</ownerDesignName>
 <engineerTo>
 <item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
@@ -37,8 +37,36 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="A3168719-5087-83FC-9F66-73258BDF65A8">
+<createdBy>Diego</createdBy>
+<createdTime>2021-06-29 02:46:55 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
 <ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasaporte" id="6A631492-FB03-94B0-F5AC-D6F5C349BB81">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-09 23:33:58 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="5D21139C-8080-92D2-D15E-E9D14A529BE8">
 <createdBy>Diego</createdBy>
@@ -239,6 +267,19 @@
 <newElementsIDs>A3168719-5087-83FC-9F66-73258BDF65A8</newElementsIDs>
 <usedAttributes>
 <attributeRef>A3168719-5087-83FC-9F66-73258BDF65A8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BFF68BE8-FCC2-5FD5-F606-D9D4DCC1702F" name="AFILIADOS_pasaporte_UN">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-09 23:34:53 UTC</createdTime>
+<ownerDesignName>SINTACT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2AEAD653-8961-0345-E9EF-84A46A1768F6" value="false"/>
+</engineerTo>
+<newElementsIDs>6A631492-FB03-94B0-F5AC-D6F5C349BB81</newElementsIDs>
+<usedAttributes>
+<attributeRef>6A631492-FB03-94B0-F5AC-D6F5C349BB81</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

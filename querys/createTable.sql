@@ -17,7 +17,9 @@ CREATE TABLE comunas (
 
 CREATE TABLE afiliados (
     codigo             INTEGER NOT NULL,
+    nacionalidad       VARCHAR2(20) NOT NULL,
     run                VARCHAR2(13) NOT NULL,
+    pasaporte          VARCHAR2(15),
     nombre             VARCHAR2(30) NOT NULL,
     segundo_nombre     VARCHAR2(30),
     apellido_paterno   VARCHAR2(30) NOT NULL,

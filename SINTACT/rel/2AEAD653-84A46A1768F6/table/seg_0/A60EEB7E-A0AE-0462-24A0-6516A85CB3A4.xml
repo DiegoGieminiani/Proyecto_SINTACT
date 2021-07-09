@@ -48,19 +48,6 @@
 <isRelationshipColumn>true</isRelationshipColumn>
 <isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
 </Column>
-<Column name="VEHICULOS_patente" id="2689CCF0-7FB6-9D67-9EA9-3F28DDC93731">
-<createdBy>Diego</createdBy>
-<createdTime>2021-07-07 00:26:32 UTC</createdTime>
-<generatorID>F9A50601-A4D0-6D8E-C6A1-E61B3B9C5752</generatorID>
-<ownerDesignName>SINTACT</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isRelationshipColumn>true</isRelationshipColumn>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AE5A64F1-8496-255C-D293-F2EF507B5FF8" name="AFILIADOS_BENEFICIOS_PK">

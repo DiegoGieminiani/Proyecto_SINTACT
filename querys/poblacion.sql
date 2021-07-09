@@ -14,11 +14,11 @@ insert into comunas values (14,'Las Condes',5);
 insert into comunas values (8,'Independencia',5);
 insert into comunas values (20, 'Ñuñoa',5);
 
-insert into afiliados values(1,'26478742-4','Alejandro',null,'Ferrera','Hernandez',TO_DATE('1993/10/09', 'yyyy/mm/dd'),'aferrerah1421@gmail.com','Condominio Las Perdices 77',0,null,500000.00,utl_raw.cast_to_raw('curriculum'),13,1);
-insert into afiliados values(2,'18769251-1','Diego','Alonso','Gieminiani','Gonzales',TO_DATE('1994/09/07', 'yyyy/mm/dd'),'diegogieminiani@gmail.com','Rosario Norte 307',0,null,375000.00,utl_raw.cast_to_raw('curriculum'),14,1);
-insert into afiliados values(3,'26601453-8','Nicolas','Alejandro','Davila','Cardenas',TO_DATE('2002/07/29', 'yyyy/mm/dd'),'nicolas8859.nd@gmail.com','Leonor Cepeda 952',0,null,500000.00,utl_raw.cast_to_raw('curriculum'),8,1);
-insert into afiliados values(4,'253533110','Elena',null,'Hernandez','Mijares',TO_DATE('1970/05/14', 'yyyy/mm/dd'),'ehmijares@gmail.com','Condominio Las Perdices 77',0,null,500000.00,utl_raw.cast_to_raw('curriculum'),13,1);
-insert into afiliados values(5,'25490055-9','Irina',null,'Pando','Camargo',TO_DATE('1982/06/09', 'yyyy/mm/dd'),'irinapando09@gmail.com','Las Condes 12771',0,null,524000.00,utl_raw.cast_to_raw('curriculum'),14,1);
+insert into afiliados values(1,'chile','26478742-4',null,'Alejandro',null,'Ferrera','Hernandez',TO_DATE('1993/10/09', 'yyyy/mm/dd'),'aferrerah1421@gmail.com','Condominio Las Perdices 77',0,null,500000.00,utl_raw.cast_to_raw('curriculum'),13,1);
+insert into afiliados values(2,'chile','18769251-1',null,'Diego','Alonso','Gieminiani','Gonzales',TO_DATE('1994/09/07', 'yyyy/mm/dd'),'diegogieminiani@gmail.com','Rosario Norte 307',0,null,375000.00,utl_raw.cast_to_raw('curriculum'),14,1);
+insert into afiliados values(3,'venezuela',null,'J540012','Nicolas','Alejandro','Davila','Cardenas',TO_DATE('2002/07/29', 'yyyy/mm/dd'),'nicolas8859.nd@gmail.com','Leonor Cepeda 952',0,null,500000.00,utl_raw.cast_to_raw('curriculum'),8,1);
+insert into afiliados values(4,'chile','253533110',null,'Elena',null,'Hernandez','Mijares',TO_DATE('1970/05/14', 'yyyy/mm/dd'),'ehmijares@gmail.com','Condominio Las Perdices 77',0,null,500000.00,utl_raw.cast_to_raw('curriculum'),13,1);
+insert into afiliados values(5,'cuba',null,'K13476','Irina',null,'Pando','Camargo',TO_DATE('1982/06/09', 'yyyy/mm/dd'),'irinapando09@gmail.com','Las Condes 12771',0,null,524000.00,utl_raw.cast_to_raw('curriculum'),14,1);
 
 insert into tipos_parentescos values(1,'Hijo',null);
 insert into tipos_parentescos values(2,'Pareja','No casados');
@@ -79,4 +79,4 @@ create sequence autoincremental
 start with 6
 increment by 1;
 
-insert into afiliados values(autoincremental.nextval,'28723420-k','Wilson','Javier','Chamorro','Lopez',TO_DATE('1970/03/09', 'yyyy/mm/dd'),'w.chamorro@duocuc.cl','Irarrazaval 22554',0,null,1524000.00,utl_raw.cast_to_raw('curriculum'),20,1);
+insert into afiliados values(autoincremental.nextval,'chile','28723420-k',null,'Wilson','Javier','Chamorro','Lopez',TO_DATE('1970/03/09', 'yyyy/mm/dd'),'w.chamorro@duocuc.cl','Irarrazaval 22554',0,null,1524000.00,utl_raw.cast_to_raw('curriculum'),20,1);

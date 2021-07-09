@@ -19,16 +19,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="nacionalidad" directorySegmentName="seg_0" id="44A6BC8A-9FE9-F16A-5C13-5DE7F49C50FB">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-09 23:35:31 UTC</createdTime>
+<generatorID>8C178388-3705-9E46-D67B-0981BF3F0E07</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="run" id="1FF69594-4874-1FE0-1C9D-69AB36F61C0D">
 <createdBy>Diego</createdBy>
 <createdTime>2021-06-29 02:59:58 UTC</createdTime>
 <generatorID>A3168719-5087-83FC-9F66-73258BDF65A8</generatorID>
 <ownerDesignName>SINTACT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
 <ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasaporte" directorySegmentName="seg_0" id="BE8608D1-829C-314A-B62A-342A4715F347">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-09 23:35:31 UTC</createdTime>
+<generatorID>6A631492-FB03-94B0-F5AC-D6F5C349BB81</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nombre" id="A31EBC51-3258-DCDD-F2C2-DC07BA178943">
@@ -214,6 +240,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1FF69594-4874-1FE0-1C9D-69AB36F61C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7801927-20F0-E629-471C-263E1C1C1901" name="AFILIADOS_pasaporte_UN">
+<createdBy>Diego</createdBy>
+<createdTime>2021-07-09 23:35:31 UTC</createdTime>
+<generatorID>BFF68BE8-FCC2-5FD5-F606-D9D4DCC1702F</generatorID>
+<ownerDesignName>SINTACT</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE8608D1-829C-314A-B62A-342A4715F347"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B0B23B91-8DE1-98EB-D90D-32A5706E7D4E" name="AFILIADOS_COMUNAS_FK">
