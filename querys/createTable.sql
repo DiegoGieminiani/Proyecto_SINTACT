@@ -27,7 +27,7 @@ CREATE TABLE afiliados (
     fecha_nacimiento   DATE NOT NULL,
     correo             VARCHAR2(50) NOT NULL,
     direccion          VARCHAR2(150) NOT NULL,
-    discapacidad       NUMBER,
+    discapacidad       NUMBER NOT NULL,
     tipo_discapacidad  VARCHAR2(100),
     pretension_sueldo  NUMBER(9, 2) NOT NULL,
     curriculum_vitae   BLOB NOT NULL,
